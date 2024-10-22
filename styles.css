@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #666;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.feature h3 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.feature p {
+  font-size: 16px;
+  color: #666;
+}
+
+.testimonials {
+  background-color: #f1f1f1;
+  padding: 50px 0;
+}
+
+.testimonials h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.testimonial {
+  background-color: white;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+.testimonial blockquote {
+  font-size: 18px;
+  margin: 0;
+}
+
+.testimonial cite {
+  font-size: 16px;
+  color: #666;
+  display: block;
+  text-align: right;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
